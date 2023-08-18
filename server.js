@@ -24,8 +24,8 @@ app.use(cookieParser());
 app.use(
   cors({
     origin: [
+      "https://inventory-app-vysint.vercel.app/",
       "http://localhost:3000",
-      "https://inventory-app-vysint.vercel.app",
     ],
     credentials: true,
   })
