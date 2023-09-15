@@ -24,7 +24,7 @@ app.use(cookieParser());
 app.use(
   cors({
     origin: [
-      "https://vysint-inventory-2098b.web.app/"
+      "https://vysint-inventory-2098b.web.app"
     ],
     credentials: true,
   })
